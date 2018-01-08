@@ -1,0 +1,29 @@
+{
+  "name": "question-stream",
+  "version": "1.0.0",
+  "description": "a promptless prompter used when you want to ask questions without requiring modules that use you to be command line applications. Various plugins will be created sometime in the future",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "lcov-report": "nyc report --reporter lcov",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfgithub/question-stream.git"
+  },
+  "author": "pfg",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pfgithub/question-stream/issues"
+  },
+  "homepage": "https://github.com/pfgithub/question-stream#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-truthy": "^1.0.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.2.1"
+  }
+}

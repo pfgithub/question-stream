@@ -6,7 +6,8 @@
   "scripts": {
     "test": "nyc mocha",
     "lcov-report": "nyc report --reporter lcov",
-    "start": "node index.js"
+    "start": "node index.js",
+    "document": "yuidoc ."
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,7 @@
     "url": "https://github.com/pfgithub/question-stream/issues"
   },
   "homepage": "https://github.com/pfgithub/question-stream#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-truthy": "^1.0.0",

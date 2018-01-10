@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a promptless prompter used when you want to ask questions without requiring modules that use you to be command line applications. Various plugins will be created sometime in the future",
   "main": "index.js",
+  "tags": ["questions", "question", "question-stream"],
   "scripts": {
     "test": "nyc mocha",
     "lcov-report": "nyc report --reporter lcov",
